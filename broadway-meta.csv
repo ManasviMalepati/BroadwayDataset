@@ -1,0 +1,25 @@
+Name,Broadway
+Version,2.0.1
+Author,Manasvi Malepati <manasvi@udel.edu>
+Created,3/21/2021
+Data File,broadway-corgis.csv
+Overview,"""This library contains data about Broadway shows that ran from January 6th, 2019 to March 21st, 2021"""
+Data Source,The Broadway League
+Description,"""This library holds data about over Broadway shows, grouped over weeklong periods. The dataset is made available by the Broadway League (the national trade association for the Broadway industry), and you can view the data online at http://www.broadwayleague.com/."""
+Tags,"""broadway, musical, theatre, tickets"""
+Row,production
+Acknowledgement
+Icon,broadway-icon.png
+Properties,Name,Type,Index,Description
+",Date.Full",string,"The full date representation that this performance's week ended on in ""Month/Day/Year"" format."
+",Show.Name",string,The name of the production.
+",Show.Theatre",string,True,The name of the theatre.
+",Show.Type",string,True,The name of the theatre.
+",Statistics.Previews",int,The number of preview shows given.
+",Statistics.Performances",int,The number of performances given.
+",Statistics.Gross",int,"The Gross Gross of this performance, or how much it made in total across the entire week. Measured in dollars."
+",Statistics.GrossPrev",int,"The gross from the previous week. If there is no previous week, represented with ""$."""
+",Statistics.GrossProportion",int,What proportion of the gross potential was the gross amount.
+",Statistics.Attendance",int,The total number of people who attended performances over the week.
+",Statistics.AttendancePrev",int,The attendance from the previous week.
+",Statistics.Capacity",int,The percentage of the theatre that was filled that week
