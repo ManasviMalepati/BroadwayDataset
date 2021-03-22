@@ -10,7 +10,7 @@ Tags,"""broadway, musical, theatre, tickets"""
 Row,production
 Acknowledgement
 Icon,broadway-icon.png
-Properties,Name,Type,Index,Description
+Properties,"Name,Type,Index,Description"
 ",Date.Full",string,"The full date representation that this performance's week ended on in ""Month/Day/Year"" format."
 ",Show.Name",string,The name of the production.
 ",Show.Theatre",string,True,The name of the theatre.
